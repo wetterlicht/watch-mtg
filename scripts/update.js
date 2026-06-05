@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
-const CHANNEL_ID = "@Play_MTG";
+const CHANNEL_ID = process.env.CHANNEL_ID;
 
 // -------------------------
 // YouTube helpers
