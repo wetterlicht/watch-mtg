@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>MTG Matches</title>
@@ -121,15 +122,20 @@
           videoDetails.className = "video-details";
 
           const videoSummary = document.createElement("summary");
-          videoSummary.textContent = "Reveal match";
+
+          let summaryTitle = "";
+          if (v.stage.type === 'draft') {
+            summaryTitle = "Featured Draft"
+          } else if (v.stage.type === "round") {
+            summaryTitle = `Round ${v.stage.value}`
+          } else {
+            summaryTitle = v.stage.type.charAt(0).toUppercase() + v.stage.type.slice(1)
+          }
+
+          videoSummary.textContent = `${summaryTitle} • ${new Date(v.publishedAt).toLocaleString()}`;
 
           const wrapper = document.createElement("div");
           wrapper.className = "video";
-
-          const meta = document.createElement("div");
-          meta.className = "meta";
-          meta.textContent =
-            `${v.stage.type} • ${new Date(v.publishedAt).toLocaleString()}`;
 
           const player = document.createElement("div");
           player.className = "player";
@@ -151,4 +157,5 @@
     load();
   </script>
 </body>
+
 </html>
