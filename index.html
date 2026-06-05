@@ -129,7 +129,7 @@
           } else if (v.stage.type === "round") {
             summaryTitle = `Round ${v.stage.value}`
           } else {
-            summaryTitle = v.stage.type.charAt(0).toUppercase() + v.stage.type.slice(1)
+            summaryTitle = v.stage.type.charAt(0).toUpperCase() + v.stage.type.slice(1)
           }
 
           videoSummary.textContent = `${summaryTitle} • ${new Date(v.publishedAt).toLocaleString()}`;
