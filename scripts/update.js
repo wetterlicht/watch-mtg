@@ -124,6 +124,10 @@ async function fetchAllUploads(playlistId) {
   return videos;
 }
 
+function getTournamentDate(videos) {
+  return Math.min(...videos.map(v => new Date(v.publishedAt).getTime()));
+}
+
 // -------------------------
 // Main
 // -------------------------
@@ -154,17 +158,28 @@ async function main() {
     });
   }
 
-  // stable output for git diffs
+  const entries = Object.entries(tournaments).map(([key, list]) => {
+    const date = getTournamentDate(list);
+  
+    return {
+      key,
+      date,
+      list
+    };
+  });
+    
+  // sort tournaments by newest first
+  entries.sort((a, b) => b.date - a.date);
+  
+  // rebuild object
   const output = Object.fromEntries(
-    Object.entries(tournaments).sort(([a], [b]) => a.localeCompare(b))
+    entries.map(e => [e.key, e.list])
   );
 
   await fs.writeFile(
     "data/tournaments.json",
     JSON.stringify(output, null, 2)
   );
-
-  console.log("Updated tournaments:", Object.keys(output));
 }
 
 main().catch(err => {
