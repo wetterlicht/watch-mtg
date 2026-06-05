@@ -21,6 +21,7 @@ jobs:
       - name: Run update script
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          CHANNEL_ID:  ${{ secrets.CHANNEL_ID }}
         run: node scripts/update.js
 
       - name: Commit changes (if any)
