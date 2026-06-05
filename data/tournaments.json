@@ -1,712 +1,656 @@
 {
-  "MTGWorlds": [
+  "MTGWorlds_2024": [
     {
       "id": "aiwP-X_NAag",
       "title": "Featured Draft Simon Nielsen | Draft | #MTGWorlds",
       "description": "Find full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:52:22Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
-    },
-    {
-      "id": "waFsHID6Bf4",
-      "title": "Featured Draft Jean-Emmanuel Depraz | Draft | #MTGWorlds",
-      "description": "Find full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
-      "publishedAt": "2024-10-27T17:55:37Z",
-      "event": "MTGWorlds",
-      "stage": {
-        "type": "draft",
-        "value": 0
-      },
-      "orderKey": 0
-    },
-    {
-      "id": "SH7ch6WmsFw",
-      "title": "Featured Draft Javier Dominguez | Draft | #MTGWorlds",
-      "description": "Find full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-31\n\n#mtg #MagicTheGathering",
-      "publishedAt": "2025-12-06T03:17:01Z",
-      "event": "MTGWorlds",
-      "stage": {
-        "type": "draft",
-        "value": 0
-      },
-      "orderKey": 0
-    },
-    {
-      "id": "xcBkGvMgXd8",
-      "title": "Featured Draft Derrick Davis | Draft | #MTGWorlds",
-      "description": "Find full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-31\n\n#mtg #MagicTheGathering",
-      "publishedAt": "2025-12-07T04:25:47Z",
-      "event": "MTGWorlds",
-      "stage": {
-        "type": "draft",
-        "value": 0
-      },
-      "orderKey": 0
+      }
     },
     {
       "id": "MjO6vHEFSXY",
       "title": "Round 1 | Simon Nielsen vs Derrick Davis | Draft | #MTGWorlds",
       "description": "Simon Nielsen vs Derrick Davis\n3:45 Simon Nielsen vs Derrick Davis Game 1\n12:29 Simon Nielsen vs Derrick Davis Game 2\n\nShota Yasooka vs Yoshihiko Ikawa\n23:36 Shota Yasooka vs Yoshihiko Ikawa Game 2\n30:49 Shota Yasooka vs Yoshihiko Ikawa Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:53:21Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 1
-      },
-      "orderKey": 1
+      }
     },
     {
       "id": "YoK5yAss0Ps",
       "title": "Round 2 | Simon Nielsen vs Mingyang Chen | Draft | #MTGWorlds",
       "description": "Simon Nielsen vs Mingyang Chen\n2:31 Simon Nielsen vs Mingyang Chen Game 1\n7:13 Simon Nielsen vs Mingyang Chen Game 2\n\nJean-Emmanuel Depraz vs Matti Kuisma \n20:14 Jean-Emmanuel Depraz vs Matti Kuisma Game 2\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:55:11Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 2
-      },
-      "orderKey": 2
+      }
     },
     {
       "id": "kdsv6QJVgXg",
       "title": "Round 3 | Simon Nielsen vs Mateo Ferreira | Draft | #MTGWorlds",
       "description": "Simon Nielsen vs Mateo Ferreira\n2:33 Simon Nielsen vs Mateo Ferreira Game 1\n10:30 Simon Nielsen vs Mateo Ferreira Game 2\n27:15 Simon Nielsen vs Mateo Ferreira Game 3\n\nShuhei Nakamura vs Ha Pham\n34:50 Shuhei Nakamura vs Ha Pham Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:56:25Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 3
-      },
-      "orderKey": 3
+      }
     },
     {
       "id": "2lHBQsFEXJk",
       "title": "Round 4 | Kenta Harane vs Derrick Davis | Standard | #MTGWorlds",
       "description": "Kenta Harane vs Derrick Davis\n3:33 Kenta Harane vs Derrick Davis Game 1\n12:24 Kenta Harane vs Derrick Davis Game 2\n17:46 Kenta Harane vs Derrick Davis Game 3\n\nJean-Emmanuel Depraz vs Marcus Wosner\n28:04 Jean-Emmanuel Depraz vs Marcus Wosner Game 1\n30:17 Jean-Emmanuel Depraz vs Marcus Wosner Game 2\n32:07 Jean-Emmanuel Depraz vs Marcus Wosner Game 3\n\nSimon Nielsen vs Shuhei Nakamura\n38:33 Simon Nielsen vs Shuhei Nakamura Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:56:31Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 4
-      },
-      "orderKey": 4
+      }
     },
     {
       "id": "SVYe2A_Peys",
       "title": "Round 5 | Jean-Emmanuel Depraz vs Simon Nielsen | Standard | #MTGWorlds",
       "description": "Jean-Emmanuel Depraz vs Simon Nielsen\n3:36 Jean-Emmanuel Depraz vs Simon Nielsen Game 1\n6:20 Jean-Emmanuel Depraz vs Simon Nielsen Game 2\n\nAdam Weiss vs Lucas Duchow\n21:09 Adam Weiss vs Lucas Duchow Game 1\n25:15 Adam Weiss vs Lucas Duchow Game 2\n27:46 Adam Weiss vs Lucas Duchow Game 3\n\nWilly Edel vs Shuhei Nakamura\n32:51 Willy Edel vs Shuhei Nakamura Game 1\n36:38 Willy Edel vs Shuhei Nakamura Game 2\n43:21 Willy Edel vs Shuhei Nakamura Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:56:35Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 5
-      },
-      "orderKey": 5
+      }
     },
     {
       "id": "knM7RtSQgOE",
       "title": "Round 6 | Nathanael Perigo vs Shota Yasooka | Standard | #MTGWorlds",
       "description": "Nathanael Perigo vs Shota Yasooka\n4:10 Nathanael Perigo vs Shota Yasooka Game 1\n12:03 Nathanael Perigo vs Shota Yasooka Game 2\n27:25 Nathanael Perigo vs Shota Yasooka Game 3\n\nWilly Edel vs Marcus Wosner\n44:08 Willy Edel vs Marcus Wosner Game 1\n50:14 Willy Edel vs Marcus Wosner Game 2\n\nGreg Orange vs Alan Andrzejewski\n55:18 Greg Orange vs Alan Andrzejewski Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:56:40Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 6
-      },
-      "orderKey": 6
+      }
     },
     {
       "id": "lh571qysjX4",
       "title": "Round 7 | Jean-Emmanuel Depraz vs Eli Kassis | Standard | #MTGWorlds",
       "description": "Jean-Emmanuel Depraz vs Eli Kassis\n4:24 Jean-Emmanuel Depraz vs Eli Kassis Game 1\n13:55 Jean-Emmanuel Depraz vs Eli Kassis Game 2\n\nAdrián Iñigo Tastet vs Márcio Carvalho\n29:45 Adrián Iñigo Tastet vs Márcio Carvalho Game 1\n37:51 Adrián Iñigo Tastet vs Márcio Carvalho Game 2\n43:10 Adrián Iñigo Tastet vs Márcio Carvalho Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-26T16:56:43Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 7
-      },
-      "orderKey": 7
+      }
+    },
+    {
+      "id": "waFsHID6Bf4",
+      "title": "Featured Draft Jean-Emmanuel Depraz | Draft | #MTGWorlds",
+      "description": "Find full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
+      "publishedAt": "2024-10-27T17:55:37Z",
+      "eventKey": "MTGWorlds_2024",
+      "stage": {
+        "type": "draft",
+        "value": 0
+      }
     },
     {
       "id": "E7-0NXq0sEg",
       "title": "Round 8 | Jean-Emmanuel Depraz vs Ivan Errico | Draft | #MTGWorlds",
       "description": "Jean-Emmanuel Depraz vs Ivan Errico\n3:24 Jean-Emmanuel Depraz vs Ivan Errico Game 1\n21:37 Jean-Emmanuel Depraz vs Ivan Errico Game 2\n42:46 Jean-Emmanuel Depraz vs Ivan Errico Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T17:55:41Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 8
-      },
-      "orderKey": 8
+      }
     },
     {
       "id": "XqD9tbbTHF0",
       "title": "Round 9 | Seth Manfield vs Ivan Errico | Draft | #MTGWorlds",
       "description": "Seth Manfield vs Ivan Errico\n2:46 Seth Manfield vs Ivan Errico Game 1\n10:30 Seth Manfield vs Ivan Errico Game 2\n\nEli Kassis vs Alexander Hayne\n22:14 Eli Kassis vs Alexander Hayne Game 1\n30:32 Eli Kassis vs Alexander Hayne Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T17:55:45Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 9
-      },
-      "orderKey": 9
+      }
     },
     {
       "id": "8HE4iicSXz0",
       "title": "Round 10 | Márcio Carvalho vs Seth Manfield | Draft | #MTGWorlds",
       "description": "Marcio Carvalho vs Seth Manfield\n2:27 Márcio Carvalho vs Seth Manfield Game 1\n7:45 Márcio Carvalho vs Seth Manfield Game 2\n\nJavier Domínguez vs Yoshihiko Ikawa\n27:21 Javier Domínguez vs Yoshihiko Ikawa Game 1\n29:06 Javier Domínguez vs Yoshihiko Ikawa Game 2\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T17:55:49Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 10
-      },
-      "orderKey": 10
+      }
     },
     {
       "id": "041VAii9AZ4",
       "title": "Round 11 | Seth Manfield vs Shota Yasooka | Standard | #MTGWorlds",
       "description": "Seth Manfield vs Shota Yasooka\n5:11 Seth Manfield vs Shota Yasooka Game 1\n15:59 Seth Manfield vs Shota Yasooka Game 2\n21:02 Seth Manfield vs Shota Yasooka Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T17:55:52Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 11
-      },
-      "orderKey": 11
+      }
     },
     {
       "id": "9mMMP54mfxw",
       "title": "Round 12 | Ha Pham vs Márcio Carvalho | Standard | #MTGWorlds",
       "description": "Ha Pham vs Marcio Carvalho\n3:09 Ha Pham vs Márcio Carvalho Game 1\n18:52 Ha Pham vs Márcio Carvalho Game 2\n31:38 Ha Pham vs Márcio Carvalho Game 3\n\nQuinn Tonole vs Simon Nielsen\n41:12 Quinn Tonole vs Simon Nielsen Game 1\n45:56 Quinn Tonole vs Simon Nielsen Game 2\n\nKai Budde vs Shota Yasooka\n48:26 Kai Budde vs Shota Yasooka Game 1\n53:21 Kai Budde vs Shota Yasooka Game 2\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T17:55:56Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 12
-      },
-      "orderKey": 12
+      }
     },
     {
       "id": "bMlMoSxGkvw",
       "title": "Round 13 | Kai Budde vs Márcio Carvalho | Standard | #MTGWorlds",
       "description": "Kai Budde vs Márcio Carvalho\n3:30 Kai Budde vs Márcio Carvalho Game 1\n19:16 Kai Budde vs Márcio Carvalho Game 2\n57:08 Kai Budde vs Márcio Carvalho Game 3\n\nLucas Duchow vs Ha Pham\n49:56 Lucas Duchow vs Ha Pham Game 2\n\nJavier Domínguez vs Eli Kassis\n1:07:33 Javier Domínguez vs Eli Kassis Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T17:55:59Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 13
-      },
-      "orderKey": 13
+      }
     },
     {
       "id": "rIaGubbLgk8",
       "title": "Round 14 | Kai Budde vs Jean-Emmanuel Depraz | Standard | #MTGWorlds",
       "description": "Kai Budde vs Jean-Emmanuel Depraz\n4:17 Kai Budde vs Jean-Emmanuel Depraz Game 1\n10:44 Kai Budde vs Jean-Emmanuel Depraz Game 2\n18:57 Kai Budde vs Jean-Emmanuel Depraz Game 3\n\nShota Yasooka vs Lucas Duchow\n31:42 Shota Yasooka vs Lucas Duchow Game 2\n\nEli Kassis vs Yoshihiko Ikawa\n40:05 Eli Kassis vs Yoshihiko Ikawa Game 2\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T17:59:00Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "round",
         "value": 14
-      },
-      "orderKey": 14
+      }
     },
     {
       "id": "y4Ux1VCuYmo",
       "title": "Quarterfinal | Seth Manfield vs Kai Budde | Standard | #MTGWorlds",
       "description": "Seth Manfield vs Kai Budde\n4:15 Seth Manfield vs Kai Budde Game 1\n22:30 Seth Manfield vs Kai Budde Game 2\n40:11 Seth Manfield vs Kai Budde Game 3\n1:00:31 Seth Manfield vs Kai Budde Game 4\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T23:21:02Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "quarterfinal",
         "value": 1000
-      },
-      "orderKey": 1000
+      }
     },
     {
       "id": "iXzxeHg1DDo",
       "title": "Quarterfinal | Javier Domínguez vs Ha Pham | Standard | #MTGWorlds",
       "description": "Javier Domínguez vs Ha Pham\n6:17 Javier Domínguez vs Ha Pham Game 1\n14:18 Javier Domínguez vs Ha Pham Game 2\n18:38 Javier Domínguez vs Ha Pham Game 3\n24:40 Javier Domínguez vs Ha Pham Game 4\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T23:21:49Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "quarterfinal",
         "value": 1000
-      },
-      "orderKey": 1000
+      }
     },
     {
       "id": "j6Izzg4v-bM",
       "title": "Quarterfinal | Yoshihiko Ikawa vs Márcio Carvalho | Standard | #MTGWorlds",
       "description": "Yoshihiko Ikawa vs Marcio Carvalho\n1:49 Yoshihiko Ikawa vs Márcio Carvalho Game 3\n8:24 Yoshihiko Ikawa vs Márcio Carvalho Game 4\n11:50 Yoshihiko Ikawa vs Márcio Carvalho Game 5\n\nQuinn Tonole vs Max Rappaport\n23:09 Quinn Tonole vs Max Rappaport Game 1\n27:13 Quinn Tonole vs Max Rappaport Game 2\n30:51 Quinn Tonole vs Max Rappaport Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T23:22:13Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "quarterfinal",
         "value": 1000
-      },
-      "orderKey": 1000
+      }
     },
     {
       "id": "GLt-XS_f374",
       "title": "Semifinal | Seth Manfield vs Javier Domínguez | Standard | #MTGWorlds",
       "description": "Seth Manfield vs Javier Domínguez\n5:17 Seth Manfield vs Javier Domínguez Game 1\n13:36 Seth Manfield vs Javier Domínguez Game 2\n37:48 Seth Manfield vs Javier Domínguez Game 3\n44:22 Seth Manfield vs Javier Domínguez Game 4\n55:42 Seth Manfield vs Javier Domínguez Game 5\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T23:22:36Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "semifinal",
         "value": 2000
-      },
-      "orderKey": 2000
+      }
     },
     {
       "id": "muO6jxzsxWo",
       "title": "Semifinal | Quinn Tonole vs Márcio Carvalho | Standard | #MTGWorlds",
       "description": "Quinn Tonole vs Márcio Carvalho\n3:34 Quinn Tonole vs Márcio Carvalho Game 1\n10:27 Quinn Tonole vs Márcio Carvalho Game 2\n13:52 Quinn Tonole vs Márcio Carvalho Game 3\n18:23 Quinn Tonole vs Márcio Carvalho Game 5\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T23:22:59Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "semifinal",
         "value": 2000
-      },
-      "orderKey": 2000
+      }
     },
     {
       "id": "ExJhb9OIT8M",
       "title": "Final | Javier Domínguez vs Márcio Carvalho | Standard | #MTGWorlds",
       "description": "Javier Domínguez vs Márcio Carvalho\n8:22 Javier Domínguez vs Márcio Carvalho Game 1\n17:46 Javier Domínguez vs Márcio Carvalho Game 2\n31:42 Javier Domínguez vs Márcio Carvalho Game 3\n\nFind full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-30 #mtg #MagicTheGathering",
       "publishedAt": "2024-10-27T23:23:25Z",
-      "event": "MTGWorlds",
+      "eventKey": "MTGWorlds_2024",
       "stage": {
         "type": "final",
         "value": 3000
-      },
-      "orderKey": 3000
+      }
     }
   ],
-  "PTAetherdrift": [
+  "MTGWorlds_2025": [
+    {
+      "id": "SH7ch6WmsFw",
+      "title": "Featured Draft Javier Dominguez | Draft | #MTGWorlds",
+      "description": "Find full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-31\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2025-12-06T03:17:01Z",
+      "eventKey": "MTGWorlds_2025",
+      "stage": {
+        "type": "draft",
+        "value": 0
+      }
+    },
+    {
+      "id": "xcBkGvMgXd8",
+      "title": "Featured Draft Derrick Davis | Draft | #MTGWorlds",
+      "description": "Find full coverage, decklists, and more from #MTGWorlds here: https://magic.gg/events/magic-world-championship-31\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2025-12-07T04:25:47Z",
+      "eventKey": "MTGWorlds_2025",
+      "stage": {
+        "type": "draft",
+        "value": 0
+      }
+    }
+  ],
+  "PTAetherdrift_2025": [
     {
       "id": "lBiqnNT8p1A",
       "title": "Featured Draft Javier Dominguez | Draft | #PTAetherdrift",
       "description": "Find full coverage, decklists, and more from #MTGAetherdrift here: https://magic.gg/events/pro-tour-aetherdrift #mtg #MagicTheGathering",
       "publishedAt": "2025-02-22T15:00:36Z",
-      "event": "PTAetherdrift",
+      "eventKey": "PTAetherdrift_2025",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     },
     {
       "id": "Bca7T19fct8",
       "title": "Featured Draft Ben Stark | Draft | #PTAetherdrift",
       "description": "Find full coverage, decklists, and more from #MTGAetherdrift here: https://magic.gg/events/pro-tour-aetherdrift #mtg #MagicTheGathering",
       "publishedAt": "2025-02-23T02:20:01Z",
-      "event": "PTAetherdrift",
+      "eventKey": "PTAetherdrift_2025",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     }
   ],
-  "PTECL": [
+  "PTECL_2026": [
     {
       "id": "KazgK2INjL8",
       "title": "Featured Draft Seth Manfield | Draft | #PTECL",
       "description": "Find full coverage, decklists, and more from #PTECL here: https://magic.gg/events/pro-tour-lorwyn-eclipsed\n\n#mtg #MagicTheGathering",
       "publishedAt": "2026-01-31T01:59:41Z",
-      "event": "PTECL",
+      "eventKey": "PTECL_2026",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     },
     {
       "id": "kvFZWwyp5Zo",
       "title": "Featured Draft Marco Belacca | Draft | #PTECL",
       "description": "Find full coverage, decklists, and more from #PTECL here: https://magic.gg/events/pro-tour-lorwyn-eclipsed\n\n#mtg #MagicTheGathering",
       "publishedAt": "2026-02-01T02:05:30Z",
-      "event": "PTECL",
+      "eventKey": "PTECL_2026",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     }
   ],
-  "PTEOE": [
+  "PTEOE_2025": [
     {
       "id": "yvVMTg9t1Mw",
       "title": "Featured Draft Ken Yukuhiro | Draft | #PTEOE",
       "description": "Find full coverage, decklists, and more from #PTEOE here: https://magic.gg/events/pro-tour-edge-of-eternities \n\n#mtg #MagicTheGathering",
       "publishedAt": "2025-09-27T01:04:05Z",
-      "event": "PTEOE",
+      "eventKey": "PTEOE_2025",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     },
     {
       "id": "5Ip65rez3YA",
       "title": "Featured Draft Shuhei Nakamura | Draft | #PTEOE",
       "description": "Find full coverage, decklists, and more from #PTEOE here: https://magic.gg/events/pro-tour-edge-of-eternities \n\n#mtg #MagicTheGathering",
       "publishedAt": "2025-09-28T01:40:24Z",
-      "event": "PTEOE",
+      "eventKey": "PTEOE_2025",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     }
   ],
-  "PTFINALFANTASY": [
+  "PTFINALFANTASY_2025": [
     {
       "id": "qzMtkBvJHtE",
       "title": "Featured Draft Matt Nass | Draft | #PTFINALFANTASY",
       "description": "Find full coverage, decklists, and more from #PTFINALFANTASY here: https://magic.gg/events/pro-tour-final-fantasy\n\n#mtg #MagicTheGathering",
       "publishedAt": "2025-06-21T03:27:12Z",
-      "event": "PTFINALFANTASY",
+      "eventKey": "PTFINALFANTASY_2025",
       "stage": {
         "type": "final",
         "value": 3000
-      },
-      "orderKey": 3000
+      }
     },
     {
       "id": "WpXwUEUejCs",
       "title": "Featured Draft Christian Baker | Draft | #PTFINALFANTASY",
       "description": "Find full coverage, decklists, and more from #PTFINALFANTASY here: https://magic.gg/events/pro-tour-final-fantasy\n\n#mtg #MagicTheGathering",
       "publishedAt": "2025-07-23T20:30:00Z",
-      "event": "PTFINALFANTASY",
+      "eventKey": "PTFINALFANTASY_2025",
       "stage": {
         "type": "final",
         "value": 3000
-      },
-      "orderKey": 3000
+      }
     }
   ],
-  "PTMH3": [
+  "PTMH3_2024": [
     {
       "id": "PmJih_h1DJ8",
       "title": "Featured Draft Yoshihiko Ikawa | Draft | #PTMH3",
       "description": "Find full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-29T13:02:15Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
-    },
-    {
-      "id": "hya3l6OyF7g",
-      "title": "Featured Draft Jacob Nagro | Draft | #PTMH3",
-      "description": "Find full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
-      "publishedAt": "2024-06-30T12:56:54Z",
-      "event": "PTMH3",
-      "stage": {
-        "type": "draft",
-        "value": 0
-      },
-      "orderKey": 0
+      }
     },
     {
       "id": "zFLPiDJxJcI",
       "title": "Round 1 | Yoshihiko Ikawa vs Kevin Thanakit | Draft | #PTMH3",
       "description": "Yoshihiko Ikawa vs. Kevin Thanakit\n\n1:51 Yoshihiko Ikawa vs. Kevin Thanakit Game 1\n22:29 Yoshihiko Ikawa vs. Kevin Thanakit Game 2\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-29T13:35:47Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 1
-      },
-      "orderKey": 1
+      }
     },
     {
       "id": "hOTFLAgYTkU",
       "title": "Round 2 | Yoshihiko Ikawa vs Tom White | Draft | #PTMH3",
       "description": "Yoshihiko Ikawa vs. Tom White\n0:56 Yoshihiko Ikawa vs. Tom White Game 1\n22:30 Yoshihiko Ikawa vs. Tom White Game 2\n\nNicole Tipple vs. Jake Beardsley\n33:48 Nicole Tipple vs. Jake Beardsley Game 2\n46:04  Nicole Tipple vs. Jake Beardsley Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T08:32:02Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 2
-      },
-      "orderKey": 2
+      }
     },
     {
       "id": "Jh8td87L7K4",
       "title": "Round 3 | Tom White vs Carlos Oliveros Guntín | Draft | #PTMH3",
       "description": "Tom White vs. Carlos Oliveros Guntín\n1:08 Tom White vs. Carlos Oliveros Guntín Game 1\n19:01 Tom White vs. Carlos Oliveros Guntín Game 2\n26:18 Tom White vs. Carlos Oliveros Guntín Game 3\n\nNicole Tipple vs. Jonny Guttman\n\n55:36 Nicole Tipple vs. Jonny Guttman Game 2\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T08:59:57Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 3
-      },
-      "orderKey": 3
+      }
     },
     {
       "id": "Sg66YWnAQFM",
       "title": "Round 4 | Jonathan L Melamed vs Martin Quiroga | Modern | #PTMH3",
       "description": "Jonathan L Melamed (Bant Nadu) vs. Martin Quiroga (Sultai Vengevine)\n0:53 Jonathan L Melamed vs. Martin Quiroga Game 1\n14:16 Jonathan L Melamed vs. Martin Quiroga Game 2\n26:18 Jonathan L Melamed vs. Martin Quiroga Game 3\n\nLiam Hoban vs. Jakob Jaklovsky\n35:09 Liam Hoban vs. Jakob Jaklovsky Game 2\n45:47 Liam Hoban vs. Jakob Jaklovsky Game 2\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T09:30:03Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 4
-      },
-      "orderKey": 4
+      }
     },
     {
       "id": "OVT1I38W9h0",
       "title": "Round 5 | Javier Dominguez vs Jean-Emmnuel Depraz | Modern | #PTMH3",
       "description": "Javier Dominguez (Jeskai Control) vs. Jean-Emmnuel Depraz (Bant Nadu)\n1:06 Javier Dominguez vs. Jean-Emmnuel Depraz Game 1\n17:00 Javier Dominguez vs. Jean-Emmnuel Depraz Game 2\n22:55 Javier Dominguez vs. Jean-Emmnuel Depraz Game 3\n\nArne Huschenbeth vs. Jacob Nagro\n47:09 Arne Huschenbeth vs. Jacob Nagro Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T10:03:14Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 5
-      },
-      "orderKey": 5
+      }
     },
     {
       "id": "WLsVHnn5EBk",
       "title": "Round 6 | Brian Boss vs Charles Eiler | Modern | #PTMH3",
       "description": "Brian Boss (Gruul Prowess) vs. Charles Eiler (Four-Color Nadu)\n1:06 Brian Boss vs. Charles Eiler Game 1\n4:59 Brian Boss vs. Charles Eiler Game 2\n\nReid Duke vs. Kevin Thanakit\n15:48 Reid Duke vs. Kevin Thanakit Game 1\n30:39 Reid Duke vs. Kevin Thanakit Game 2\n43:11 Reid Duke vs. Kevin Thanakit Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T11:02:01Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 6
-      },
-      "orderKey": 6
+      }
     },
     {
       "id": "q9dQ1hBJoas",
       "title": "Round 7 | Javier Dominguez vs David González | Modern | #PTMH3",
       "description": "Javier Dominguez (Gruul Prowess) vs. David González (Four-Color Nadu)\n1:03 Javier Dominguez vs. David González Game 1\n28:03 Javier Dominguez vs. David González Game 2\n\nTomasz Sodomirski vs. Daniel Goetschel\n46:17 Tomasz Sodomirski vs. Daniel Goetschel Game 2\n1:00:25 Tomasz Sodomirski vs. Daniel Goetschel Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T11:37:52Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 7
-      },
-      "orderKey": 7
+      }
     },
     {
       "id": "rC47nB-r1Cw",
       "title": "Round 8 | Jacob Nagro vs David González | Modern | #PTMH3",
       "description": "Jacob Nagro (Bant Nadu) vs. David González (Eldrazi Tron)\n1:01 Jacob Nagro vs. David González Game 1\n7:06 Jacob Nagro vs. David González Game 2\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T12:07:25Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 8
-      },
-      "orderKey": 8
+      }
+    },
+    {
+      "id": "hya3l6OyF7g",
+      "title": "Featured Draft Jacob Nagro | Draft | #PTMH3",
+      "description": "Find full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
+      "publishedAt": "2024-06-30T12:56:54Z",
+      "eventKey": "PTMH3_2024",
+      "stage": {
+        "type": "draft",
+        "value": 0
+      }
     },
     {
       "id": "lDJZS5VHUa0",
       "title": "Round 9 | Jacob Nagro vs Brian Boss | Draft | #PTMH3",
       "description": "Jacob Nagro vs. Brian Boss\n2:14 Jacob Nagro vs. Brian Boss Game 1\n10:09 Jacob Nagro vs. Brian Boss Game 2\n21:23 Jacob Nagro vs. Brian Boss Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T13:07:42Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 9
-      },
-      "orderKey": 9
+      }
     },
     {
       "id": "A65zGV-pSBY",
       "title": "Round 10 | Jacob Nagro vs Eli Kassis | Draft | #PTMH3",
       "description": "Round 10 | Jacob Nagro vs Eli Kassis | Draft | #PTMH3\n\nDescription\nJacob Nagro vs. Eli Kassis\n0:50 Jacob Nagro vs. Eli Kassis Game 1\n19:09 Jacob Nagro vs. Eli Kassis Game 2\n33:32 Jacob Nagro vs. Eli Kassis Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T13:22:21Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 10
-      },
-      "orderKey": 10
+      }
     },
     {
       "id": "OBX4LRqFxgo",
       "title": "Round 11 | Jonny Guttman vs Ken Yukuhiro | Draft | #PTMH3",
       "description": "Jonny Guttman vs Ken Yukuhiro\n1:18 Jonny Guttman vs Ken Yukuhiro Game 1\n17:24 Jonny Guttman vs Ken Yukuhiro Game 2\n23:29 Jonny Guttman vs Ken Yukuhiro Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T16:19:53Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 11
-      },
-      "orderKey": 11
+      }
     },
     {
       "id": "EmZy9R9fcqU",
       "title": "Round 12 | Ken Yukuhiro vs Ma Noah | Modern | #PTMH3",
       "description": "Ken Yukuhiro vs. Ma Noah\n0:43 Ken Yukuhiro vs. Ma Noah Game 1\n9:10 Ken Yukuhiro vs. Ma Noah Game 2\n\nBrian Boss vs. Shuhei Nakamura\n36:01 Brian Boss vs. Shuhei Nakamura Game 2\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T16:21:53Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 12
-      },
-      "orderKey": 12
+      }
     },
     {
       "id": "TRO3yCFoQl8",
       "title": "Round 13 | Ma Noah vs Jason Ye | Modern | #PTMH3",
       "description": "Ma Noah vs. Jason Ye\n1:08 Ma Noah vs. Jason Ye Game 1\n15:33 Ma Noah vs. Jason Ye Game 2\n\nJavier Dominguez vs. Bart Van Etten\nMore information about this match and subsequent player standings here: https://magic.gg/news/pro-tour-modern-horizons-3-round-14-disqualification\n30:17 Javier Dominguez vs. Bart Van Etten Game 2\n\nOlle Råde vs. Masahide Moriyama\n40:34 Olle Råde vs. Masahide Moriyama Game 3 \n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:21:05Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 13
-      },
-      "orderKey": 13
+      }
     },
     {
       "id": "3LuEKLHXwTw",
       "title": "Round 14 | Ken Yukuhiro vs Eli Kassis | Modern | #PTMH3",
       "description": "Ken Yukuhiro vs. Eli Kassis\n0:50 Ken Yukuhiro vs. Eli Kassis Game 1\n14:20 Ken Yukuhiro vs. Eli Kassis Game 2\n32:11 Ken Yukuhiro vs. Eli Kassis Game 3\n\nShuhei Nakamura vs. Daniel Goetschel\n50:57 Shuhei Nakamura vs. Daniel Goetschel Game 3\n\nSam Pardee vs. Jason Ye\n1:11:07 Sam Pardee vs. Jason Ye Game 1\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:21:24Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 14
-      },
-      "orderKey": 14
+      }
     },
     {
       "id": "xX6qVLytg-M",
       "title": "Round 16 | Brian Boss vs Sam Pardee | Modern | #PTMH3",
       "description": "Brian Boss vs. Sam Pardee\n0:47 Brian Boss vs. Sam Pardee Game 1\n7:18 Brian Boss vs. Sam Pardee Game 3\n\nSeth Manfield vs. Carlos Oliveros Guntín\n31:25 Seth Manfield vs. Carlos Oliveros Guntín Game 2\n\nDaniel Goetschel vs. Marco Del Pivo \n42:22 Daniel Goetschel vs. Marco Del Pivo Game 3\n\nKen Yukuhiro vs. Simon Nielsen\n49:38 Ken Yukuhiro vs. Simon Nielsen Game 3\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:22:13Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "round",
         "value": 16
-      },
-      "orderKey": 16
+      }
     },
     {
       "id": "nphgP5DCdPg",
       "title": "Quarterfinal | Javier Dominguez vs Simon Nielsen | Modern | #PTMH3",
       "description": "Javier Dominguez (Jeskai Control) vs. Simon Nielsen (Bant Nadu)\n2:11 Javier Dominguez vs. Simon Nielsen Game 1\n9:42 Javier Dominguez vs. Simon Nielsen Game 2\n25:11 Javier Dominguez vs. Simon Nielsen Game 3\n34:16 Javier Dominguez vs. Simon Nielsen Game 4\n41:38 Javier Dominguez vs. Simon Nielsen Game 5\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:23:36Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "quarterfinal",
         "value": 1000
-      },
-      "orderKey": 1000
+      }
     },
     {
       "id": "kLe2BG_PLUI",
       "title": "Quarterfinal | Seth Manfield vs Eli Kassis | Modern | #PTMH3",
       "description": "Seth Manfield (Mono-Black Necro) vs. Eli Kassis (Bant Nadu)\n0:53 Seth Manfield vs. Eli Kassis Game 1\n10:40 Seth Manfield vs. Eli Kassis Game 2\n19:29 Seth Manfield vs. Eli Kassis Game 3\n28:47 Seth Manfield vs. Eli Kassis Game 4\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:23:55Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "quarterfinal",
         "value": 1000
-      },
-      "orderKey": 1000
+      }
     },
     {
       "id": "KbgOlf-CoMk",
       "title": "Quarterfinal | Jason Ye vs Sam Pardee | Modern | #PTMH3",
       "description": "Jason Ye (Bant Nadu) vs. Sam Pardee (Bant Nadu)\n2:33 Jason Ye vs. Sam Pardee Game 3\n15:13 Jason Ye vs. Sam Pardee Game 4\n21:45 Jason Ye vs. Sam Pardee Game 5\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:24:28Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "quarterfinal",
         "value": 1000
-      },
-      "orderKey": 1000
+      }
     },
     {
       "id": "BC--bW3FPww",
       "title": "Quarterfinal | Ma Noah vs Daniel Goetschel | Modern | #PTMH3",
       "description": "Ma Noah (Mono-Black Necro) vs. Daniel Goetschel (Four-Color Nadu)\n0:49 Ma Noah vs. Daniel Goetschel Game 5\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:24:41Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "quarterfinal",
         "value": 1000
-      },
-      "orderKey": 1000
+      }
     },
     {
       "id": "tK-xZbuLMNE",
       "title": "Semifinal | Eli Kassis vs Sam Pardee | Modern | #PTMH3",
       "description": "Eli Kassis (Bant Nadu) vs. Sam Pardee (Bant Nadu)\n1:13 Eli Kassis vs. Sam Pardee Game 1\n12:32 Eli Kassis vs. Sam Pardee Game 2\n28:07 Eli Kassis vs. Sam Pardee Game 3\n35:42 Eli Kassis vs. Sam Pardee Game 4\n46:18 Eli Kassis vs. Sam Pardee Game 5\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:25:02Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "semifinal",
         "value": 2000
-      },
-      "orderKey": 2000
+      }
     },
     {
       "id": "8OkWy8-PIiw",
       "title": "Semifinal | Simon Nielsen vs Daniel Goetschel | Modern | #PTMH3",
       "description": "Simon Nielsen (Bant Nadu) vs. Daniel Goetschel (Four-Color Nadu)\n0:52 Simon Nielsen vs. Daniel Goetschel Game 1\n4:19 Simon Nielsen vs. Daniel Goetschel Game 2\n7:56 Simon Nielsen vs. Daniel Goetschel Game 3\n15:26 Simon Nielsen vs. Daniel Goetschel Game 4\n21:56 Simon Nielsen vs. Daniel Goetschel Game 5",
       "publishedAt": "2024-06-30T17:25:19Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "semifinal",
         "value": 2000
-      },
-      "orderKey": 2000
+      }
     },
     {
       "id": "tCJ5-wDrHK4",
       "title": "Finals | Simon Nielsen vs Sam Pardee | Modern | #PTMH3",
       "description": "Simon Nielsen (Bant Nadu) vs. Sam Pardee (Bant Nadu)\n2:11 Simon Nielsen vs. Sam Pardee Game 1\n15:27 Simon Nielsen vs. Sam Pardee Game 2\n30:16 Simon Nielsen vs. Sam Pardee Game 3\n44:08 Simon Nielsen vs. Sam Pardee Game 4\n\nFind full coverage, decklists, and more from #PTMH3 here: https://magic.gg/events/pro-tour-modern-horizons-3 #mtg #MagicTheGathering",
       "publishedAt": "2024-06-30T17:25:33Z",
-      "event": "PTMH3",
+      "eventKey": "PTMH3_2024",
       "stage": {
         "type": "final",
         "value": 3000
-      },
-      "orderKey": 3000
+      }
     }
   ],
-  "PTSOS": [
+  "PTSOS_2026": [
     {
       "id": "rkn4L1heN5c",
       "title": "Featured Draft Christoffer Larsen | Draft | #PTSOS",
       "description": "Find full coverage, decklists, and more from #PTSOS here: https://magic.gg/events/pro-tour-secrets-of-strixhaven\n\n#mtg #MagicTheGathering",
       "publishedAt": "2026-05-02T04:32:23Z",
-      "event": "PTSOS",
+      "eventKey": "PTSOS_2026",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     },
     {
       "id": "zbeg095NY8w",
       "title": "Featured Draft Nathan Steuer | Draft | #PTSOS",
       "description": "Find full coverage, decklists, and more from #PTSOS here: https://magic.gg/events/pro-tour-secrets-of-strixhaven\n\n#mtg #MagicTheGathering",
       "publishedAt": "2026-05-03T03:10:50Z",
-      "event": "PTSOS",
+      "eventKey": "PTSOS_2026",
       "stage": {
         "type": "draft",
         "value": 0
-      },
-      "orderKey": 0
+      }
     }
   ]
 }
