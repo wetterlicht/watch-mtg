@@ -8,19 +8,17 @@ const CHANNEL_ID = process.env.CHANNEL_ID;
 // -------------------------
 
 async function getUploadsPlaylistId() {
-  console.log("Channel ID:", CHANNEL_ID);
   const url = new URL("https://www.googleapis.com/youtube/v3/channels");
   url.search = new URLSearchParams({
     key: API_KEY,
     id: CHANNEL_ID,
     part: "contentDetails"
   });
-  
+
   const res = await fetch(url);
   if (!res.ok) throw new Error(`channels.list failed: ${res.status}`);
-  
+
   const data = await res.json();
-  console.log("data", data);
   return data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
 }
 
@@ -41,10 +39,55 @@ async function fetchPlaylistVideos(playlistId, pageToken = null) {
   return res.json();
 }
 
-function isMatchVideo(t) {
-  const title = t.toLowerCase();
-  return (/round\s+\d+/.test(title) || /quarterfinal/.test(title) || /semifinal/.test(title) || /final/.test(title))
+// -------------------------
+// Structure validation
+// -------------------------
+
+function isMatchVideo(title) {
+  return /^(Round\s+\d+|Quarterfinals?|Semifinals?|Finals?)\s*\|\s*.+?\s+vs\s+.+?\s*\|\s*.+?\s*\|\s*#\w+$/i
+    .test(title);
 }
+
+function isDraftVideo(title) {
+  return /^Featured Draft\s+.+\s*\|\s*Draft\s*\|\s*#\w+$/i
+    .test(title);
+}
+
+function isValidVideo(title) {
+  return isMatchVideo(title) || isDraftVideo(title);
+}
+
+// -------------------------
+// Parsing helpers
+// -------------------------
+
+function getEventId(title) {
+  const match = title.match(/#(\w+)$/);
+  return match ? match[1] : "unknown";
+}
+
+function detectStage(title) {
+  const t = title.toLowerCase();
+
+  const round = t.match(/^round\s+(\d+)/i);
+  if (round) return { type: "round", value: Number(round[1]) };
+
+  if (/quarterfinals?/.test(t)) return { type: "quarterfinal", value: 1000 };
+  if (/semifinals?/.test(t)) return { type: "semifinal", value: 2000 };
+  if (/finals?/.test(t)) return { type: "final", value: 3000 };
+
+  if (/featured draft/.test(t)) return { type: "draft", value: 0 };
+
+  return { type: "unknown", value: 9999 };
+}
+
+function getOrderKey(video) {
+  return video.stage.value;
+}
+
+// -------------------------
+// Main build
+// -------------------------
 
 async function fetchAllUploads(playlistId) {
   let pageToken = null;
@@ -58,17 +101,22 @@ async function fetchAllUploads(playlistId) {
       const content = item.contentDetails;
 
       if (!snippet?.title) continue;
+      if (!isValidVideo(snippet.title)) continue;
 
-      if(!isMatchVideo(snippet.title)) {
-        continue;
-      }
+      const title = snippet.title;
 
-      videos.push({
+      const video = {
         id: content.videoId,
-        title: snippet.title,
+        title,
         description: snippet.description || "",
-        publishedAt: snippet.publishedAt
-      });
+        publishedAt: snippet.publishedAt,
+        event: getEventId(title),
+        stage: detectStage(title)
+      };
+
+      video.orderKey = getOrderKey(video);
+
+      videos.push(video);
     }
 
     pageToken = data.nextPageToken;
@@ -79,105 +127,34 @@ async function fetchAllUploads(playlistId) {
 }
 
 // -------------------------
-// Parsing
-// -------------------------
-
-function extractHashtags(text) {
-  return [...text.matchAll(/#([A-Za-z0-9_-]+)/g)]
-    .map(m => m[1].toLowerCase());
-}
-
-function detectStage(title) {
-  const t = title.toLowerCase();
-
-  if (t.includes("final")) return "final";
-  if (t.includes("semi")) return "semifinal";
-  if (t.includes("quarter")) return "quarterfinal";
-
-  const round = t.match(/round\s*(\d+)/i);
-  if (round) return `round:${Number(round[1])}`;
-
-  return "unknown";
-}
-
-function getOrderKey(video) {
-  const stage = video.stage;
-
-  if (stage.startsWith("round:")) {
-    return Number(stage.split(":")[1]);
-  }
-
-  if (stage === "quarterfinal") return 1000;
-  if (stage === "semifinal") return 2000;
-  if (stage === "final") return 3000;
-
-  return 9999;
-}
-
-// -------------------------
-// Overrides (manual fixes)
-// -------------------------
-
-async function loadOverrides() {
-  try {
-    const raw = await fs.readFile("data/overrides.json", "utf8");
-    return JSON.parse(raw);
-  } catch {
-    return {};
-  }
-}
-
-// -------------------------
-// Main build
+// Main
 // -------------------------
 
 async function main() {
   const uploadsId = await getUploadsPlaylistId();
-  console.log("Upload playlist id:", uploadsId)
   const videos = await fetchAllUploads(uploadsId);
 
-  const overrides = await loadOverrides();
-
-  // enrich
-  for (const v of videos) {
-    const tags = extractHashtags(`${v.title}\n${v.description}`);
-    v.hashtags = tags;
-    v.stage = detectStage(v.title);
-    v.orderKey = getOrderKey(v);
-  }
-
-  // group by hashtag
+  // group by event (NO hashtags)
   const tournaments = {};
 
   for (const v of videos) {
-    if (v.hashtags.length === 0) continue;
+    const key = v.event;
 
-    for (const tag of v.hashtags) {
-      tournaments[tag] ??= [];
-      tournaments[tag].push(v);
-    }
+    tournaments[key] ??= [];
+    tournaments[key].push(v);
   }
 
-  // sort + apply overrides
-  for (const [tag, list] of Object.entries(tournaments)) {
+  // sort each event
+  for (const list of Object.values(tournaments)) {
     list.sort((a, b) => {
       const oa = a.orderKey - b.orderKey;
       if (oa !== 0) return oa;
 
       return new Date(a.publishedAt) - new Date(b.publishedAt);
     });
-
-    // manual override order (if exists)
-    const overrideOrder = overrides[tag]?.videoOrder;
-    if (overrideOrder?.length) {
-      const map = new Map(list.map(v => [v.id, v]));
-      tournaments[tag] = overrideOrder
-        .map(id => map.get(id))
-        .filter(Boolean);
-    }
   }
 
-  // stable output (important for git diffs)
+  // stable output
   const output = Object.fromEntries(
     Object.entries(tournaments).sort(([a], [b]) => a.localeCompare(b))
   );
