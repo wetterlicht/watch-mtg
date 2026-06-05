@@ -51,12 +51,21 @@
       border-radius: 6px;
     }
 
+    details summary {
+      cursor: pointer;
+    }
+
+    details summary>* {
+      display: inline;
+    }
+
     .event-title {
       font-size: 16px;
       font-weight: 600;
     }
 
     .event-meta {
+      margin-left: 0.5rem;
       font-size: 12px;
       opacity: 0.6;
     }
@@ -107,8 +116,8 @@
 
         const summary = document.createElement("summary");
         summary.innerHTML = `
-          <div class="event-title">${eventKey}</div>
-          <div class="event-meta">${videos.length} matches</div>
+          <span class="event-title">${eventKey}</span>
+          <span class="event-meta">${videos.length} videos</span>
         `;
 
         eventDetails.appendChild(summary);
@@ -132,7 +141,7 @@
             summaryTitle = v.stage.type.charAt(0).toUpperCase() + v.stage.type.slice(1)
           }
 
-          videoSummary.textContent = `${summaryTitle} • ${new Date(v.publishedAt).toLocaleString()}`;
+          videoSummary.textContent = `${summaryTitle}`;
 
           const wrapper = document.createElement("div");
           wrapper.className = "video";
