@@ -44,7 +44,7 @@ async function fetchPlaylistVideos(playlistId, pageToken = null) {
 // -------------------------
 
 function isMatchVideo(title) {
-  return /^(Round\s+\d+|Quarterfinals?|Semifinals?|Finals?)\s*\|\s*.+?\s+vs\s+.+?\s*\|\s*.+?\s*\|\s*#\w+$/i
+  return /^(Round\s+\d+|Quarterfinals?|Semifinals?|Finals?)\s*\|\s*.+?\s+vs\.?\s+.+?\s*\|\s*.+?\s*\|\s*#\w+$/i
     .test(title);
 }
 
