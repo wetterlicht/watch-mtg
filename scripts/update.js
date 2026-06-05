@@ -49,7 +49,7 @@ function isMatchVideo(title) {
 }
 
 function isDraftVideo(title) {
-  return /^Featured Draft\s+.+\s*\|\s*Draft\s*\|\s*#\w+$/i
+  return /^Featured Draft\s+.+?\s*\|\s*Draft\s*\|\s*#\w+$/i
     .test(title);
 }
 
@@ -58,12 +58,16 @@ function isValidVideo(title) {
 }
 
 // -------------------------
-// Parsing helpers
+// Parsing
 // -------------------------
 
-function getEventId(title) {
+function getEventKey(title, publishedAt) {
   const match = title.match(/#(\w+)$/);
-  return match ? match[1] : "unknown";
+  const event = match ? match[1] : "unknown";
+
+  const year = new Date(publishedAt).getUTCFullYear();
+
+  return `${event}_${year}`;
 }
 
 function detectStage(title) {
@@ -81,12 +85,8 @@ function detectStage(title) {
   return { type: "unknown", value: 9999 };
 }
 
-function getOrderKey(video) {
-  return video.stage.value;
-}
-
 // -------------------------
-// Main build
+// Fetch + build dataset
 // -------------------------
 
 async function fetchAllUploads(playlistId) {
@@ -110,11 +110,9 @@ async function fetchAllUploads(playlistId) {
         title,
         description: snippet.description || "",
         publishedAt: snippet.publishedAt,
-        event: getEventId(title),
+        eventKey: getEventKey(title, snippet.publishedAt),
         stage: detectStage(title)
       };
-
-      video.orderKey = getOrderKey(video);
 
       videos.push(video);
     }
@@ -134,27 +132,29 @@ async function main() {
   const uploadsId = await getUploadsPlaylistId();
   const videos = await fetchAllUploads(uploadsId);
 
-  // group by event (NO hashtags)
   const tournaments = {};
 
+  // group by eventKey (event + year)
   for (const v of videos) {
-    const key = v.event;
+    const key = v.eventKey;
 
     tournaments[key] ??= [];
     tournaments[key].push(v);
   }
 
-  // sort each event
+  // sort inside each event
   for (const list of Object.values(tournaments)) {
     list.sort((a, b) => {
-      const oa = a.orderKey - b.orderKey;
-      if (oa !== 0) return oa;
+      const timeDiff =
+        new Date(a.publishedAt) - new Date(b.publishedAt);
 
-      return new Date(a.publishedAt) - new Date(b.publishedAt);
+      if (timeDiff !== 0) return timeDiff;
+
+      return a.stage.value - b.stage.value;
     });
   }
 
-  // stable output
+  // stable output for git diffs
   const output = Object.fromEntries(
     Object.entries(tournaments).sort(([a], [b]) => a.localeCompare(b))
   );
