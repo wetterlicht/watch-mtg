@@ -27,40 +27,37 @@
       font-weight: 600;
     }
 
-    .video {
-      margin: 6px 0;
-      padding: 8px;
-      border-left: 2px solid #333;
+    .video-details {
+      margin-top: 8px;
+      border: 1px solid #2a2a2a;
       background: #121212;
+    }
+
+    .video {
+      padding: 8px;
     }
 
     .meta {
       font-size: 12px;
       opacity: 0.6;
-      margin-top: 4px;
+      margin-bottom: 6px;
     }
 
-    button {
-      margin-top: 6px;
-      font-size: 12px;
-      padding: 4px 8px;
-      background: #222;
-      border: 1px solid #444;
-      color: #ddd;
-      cursor: pointer;
-      border-radius: 4px;
+    iframe {
+      width: 100%;
+      height: 420px;
+      border: 0;
+      border-radius: 6px;
     }
 
-    button:hover {
-      background: #2a2a2a;
-    }
-
-    .event-summary {
+    .event-title {
       font-size: 16px;
+      font-weight: 600;
     }
 
-    .video-summary {
-      font-weight: 500;
+    .event-meta {
+      font-size: 12px;
+      opacity: 0.6;
     }
   </style>
 </head>
@@ -70,6 +67,29 @@
   <div id="app">Loading...</div>
 
   <script>
+    function loadPlayer(el, id) {
+      if (el.dataset.loaded) return;
+
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube-nocookie.com/embed/${id}`;
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+
+      el.appendChild(iframe);
+      el.dataset.loaded = "true";
+    }
+
+    document.addEventListener("toggle", (e) => {
+      const details = e.target;
+
+      if (!details.classList.contains("video-details")) return;
+      if (!details.open) return;
+
+      const player = details.querySelector(".player");
+      if (player) loadPlayer(player, player.dataset.id);
+    }, true);
+
     async function load() {
       const res = await fetch("data/tournaments.json");
       const data = await res.json();
@@ -80,54 +100,46 @@
       for (const [eventKey, videos] of Object.entries(data)) {
 
         // -------------------------
-        // Tournament wrapper
+        // Tournament container
         // -------------------------
         const eventDetails = document.createElement("details");
 
-        const eventSummary = document.createElement("summary");
-        eventSummary.innerHTML = `
-          <div class="event-summary">${eventKey}</div>
-          <div class="meta">${videos.length} matches</div>
+        const summary = document.createElement("summary");
+        summary.innerHTML = `
+          <div class="event-title">${eventKey}</div>
+          <div class="event-meta">${videos.length} matches</div>
         `;
 
-        eventDetails.appendChild(eventSummary);
+        eventDetails.appendChild(summary);
 
         // -------------------------
-        // Videos (hidden by default)
+        // Videos (hidden until opened)
         // -------------------------
         for (const v of videos) {
 
           const videoDetails = document.createElement("details");
+          videoDetails.className = "video-details";
 
           const videoSummary = document.createElement("summary");
-          videoSummary.className = "video-summary";
           videoSummary.textContent = "Reveal match";
 
-          const div = document.createElement("div");
-          div.className = "video";
-
-          const title = document.createElement("div");
-          title.textContent = v.title;
+          const wrapper = document.createElement("div");
+          wrapper.className = "video";
 
           const meta = document.createElement("div");
           meta.className = "meta";
           meta.textContent =
             `${v.stage.type} • ${new Date(v.publishedAt).toLocaleString()}`;
 
-          const btn = document.createElement("button");
-          btn.textContent = "Copy video id";
-          btn.onclick = async () => {
-            await navigator.clipboard.writeText(v.id);
-            btn.textContent = "Copied!";
-            setTimeout(() => (btn.textContent = "Copy video id"), 1000);
-          };
+          const player = document.createElement("div");
+          player.className = "player";
+          player.dataset.id = v.id;
 
-          div.appendChild(title);
-          div.appendChild(meta);
-          div.appendChild(btn);
+          wrapper.appendChild(meta);
+          wrapper.appendChild(player);
 
           videoDetails.appendChild(videoSummary);
-          videoDetails.appendChild(div);
+          videoDetails.appendChild(wrapper);
 
           eventDetails.appendChild(videoDetails);
         }
