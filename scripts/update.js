@@ -8,17 +8,19 @@ const CHANNEL_ID = process.env.CHANNEL_ID;
 // -------------------------
 
 async function getUploadsPlaylistId() {
+  console.log("Channel ID:", CHANNEL_ID);
   const url = new URL("https://www.googleapis.com/youtube/v3/channels");
   url.search = new URLSearchParams({
     key: API_KEY,
     id: CHANNEL_ID,
     part: "contentDetails"
   });
-
+  
   const res = await fetch(url);
   if (!res.ok) throw new Error(`channels.list failed: ${res.status}`);
-
+  
   const data = await res.json();
+  console.log("data", data);
   return data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
 }
 
