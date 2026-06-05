@@ -41,6 +41,11 @@ async function fetchPlaylistVideos(playlistId, pageToken = null) {
   return res.json();
 }
 
+function isMatchVideo(t) {
+  const title = t.toLowerCase();
+  return (/round\s+\d+/.test(title) || /quarterfinal/.test(title) || /semifinal/.test(title) || /final/.test(title))
+}
+
 async function fetchAllUploads(playlistId) {
   let pageToken = null;
   const videos = [];
@@ -53,6 +58,10 @@ async function fetchAllUploads(playlistId) {
       const content = item.contentDetails;
 
       if (!snippet?.title) continue;
+
+      if(!isMatchVideo(snippet.title)) {
+        continue;
+      }
 
       videos.push({
         id: content.videoId,
