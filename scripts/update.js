@@ -122,6 +122,7 @@ async function loadOverrides() {
 
 async function main() {
   const uploadsId = await getUploadsPlaylistId();
+  console.log("Upload playlist id:", uploadsId)
   const videos = await fetchAllUploads(uploadsId);
 
   const overrides = await loadOverrides();
