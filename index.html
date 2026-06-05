@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>MTG Matches</title>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      background: #0f0f0f;
+      color: #eaeaea;
+    }
+
+    details {
+      border: 1px solid #333;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      padding: 8px;
+      background: #161616;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .video {
+      margin: 6px 0;
+      padding: 8px;
+      border-left: 2px solid #333;
+      background: #121212;
+    }
+
+    .meta {
+      font-size: 12px;
+      opacity: 0.6;
+      margin-top: 4px;
+    }
+
+    button {
+      margin-top: 6px;
+      font-size: 12px;
+      padding: 4px 8px;
+      background: #222;
+      border: 1px solid #444;
+      color: #ddd;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: #2a2a2a;
+    }
+
+    .event-summary {
+      font-size: 16px;
+    }
+
+    .video-summary {
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>MTG Matches</h1>
+  <div id="app">Loading...</div>
+
+  <script>
+    async function load() {
+      const res = await fetch("data/tournaments.json");
+      const data = await res.json();
+
+      const app = document.getElementById("app");
+      app.innerHTML = "";
+
+      for (const [eventKey, videos] of Object.entries(data)) {
+
+        // -------------------------
+        // Tournament wrapper
+        // -------------------------
+        const eventDetails = document.createElement("details");
+
+        const eventSummary = document.createElement("summary");
+        eventSummary.innerHTML = `
+          <div class="event-summary">${eventKey}</div>
+          <div class="meta">${videos.length} matches</div>
+        `;
+
+        eventDetails.appendChild(eventSummary);
+
+        // -------------------------
+        // Videos (hidden by default)
+        // -------------------------
+        for (const v of videos) {
+
+          const videoDetails = document.createElement("details");
+
+          const videoSummary = document.createElement("summary");
+          videoSummary.className = "video-summary";
+          videoSummary.textContent = "Reveal match";
+
+          const div = document.createElement("div");
+          div.className = "video";
+
+          const title = document.createElement("div");
+          title.textContent = v.title;
+
+          const meta = document.createElement("div");
+          meta.className = "meta";
+          meta.textContent =
+            `${v.stage.type} • ${new Date(v.publishedAt).toLocaleString()}`;
+
+          const btn = document.createElement("button");
+          btn.textContent = "Copy video id";
+          btn.onclick = async () => {
+            await navigator.clipboard.writeText(v.id);
+            btn.textContent = "Copied!";
+            setTimeout(() => (btn.textContent = "Copy video id"), 1000);
+          };
+
+          div.appendChild(title);
+          div.appendChild(meta);
+          div.appendChild(btn);
+
+          videoDetails.appendChild(videoSummary);
+          videoDetails.appendChild(div);
+
+          eventDetails.appendChild(videoDetails);
+        }
+
+        app.appendChild(eventDetails);
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>
