@@ -1,4 +1,204 @@
 {
+  "PTMSH_2026": [
+    {
+      "id": "Idv6H5135Xc",
+      "title": "Featured Draft Nathan Steuer | Draft | #PTMSH",
+      "description": "Find full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:08Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "draft",
+        "value": 0
+      }
+    },
+    {
+      "id": "K1Hr0sN6K_E",
+      "title": "Round 1 | Nathan Steuer vs. Davor Detecnik | Draft | #PTMSH",
+      "description": "Nathan Steuer vs. Davor Detecnik\n\n1:31 Nathan Steuer vs. Davor Detecnik Game 1\n11:36 Nathan Steuer vs. Davor Detecnik Game 2\n28:43 Nathan Steuer vs. Davor Detecnik Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:12Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 1
+      }
+    },
+    {
+      "id": "QyFmZrFaT7g",
+      "title": "Round 2 | Nathan Steuer vs. Sergio Garcia Gonzalez | Draft | #PTMSH",
+      "description": "Nathan Steuer vs. Sergio Garcia Gonzalez\n\n0:51 Nathan Steuer vs. Sergio Garcia Gonzalez Game 1\n14:08 Nathan Steuer vs. Sergio Garcia Gonzalez Game 2\n\nJavier Dominguez vs. Gabriel Nassif\n\n29:39 Javier Dominguez vs. Gabriel Nassif Game 2\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:15Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 2
+      }
+    },
+    {
+      "id": "kcKnND_l_ug",
+      "title": "Round 3 | Nathan Steuer vs. Keisuke Kirito | Draft | #PTMSH",
+      "description": "Nathan Steuer vs. Keisuke Kirito\n\n0:42 Nathan Steuer vs. Keisuke Kirito Game 1\n18:09 Nathan Steuer vs. Keisuke Kirito Game 2\n\nGabriel Nassif vs. Ramón Santos\n\n29:20 Gabriel Nassif vs. Ramón Santos Game 2\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:18Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 3
+      }
+    },
+    {
+      "id": "1h7VeuQ2hyM",
+      "title": "Round 4 | Anthony Pepe vs. Toni Portolan | Modern | #PTMSH",
+      "description": "Anthony Pepe vs. Toni Portolan\n\n0:59 Anthony Pepe vs. Toni Portolan Game 1\n12:17 Anthony Pepe vs. Toni Portolan Game 2\n\nKoen de Vos vs. Matthew Stefansson\n\n29:32 Koen de Vos vs. Matthew Stefansson Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:21Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 4
+      }
+    },
+    {
+      "id": "ilpDEwmyYmE",
+      "title": "Round 5 | Jordan Selesnick vs. Rei Hirayama | Modern | #PTMSH",
+      "description": "Jordan Selesnick vs. Rei Hirayama\n\n0:52 Jordan Selesnick vs. Rei Hirayama Game 1\n10:13 Jordan Selesnick vs. Rei Hirayama Game 2\n24:39 Jordan Selesnick vs. Rei Hirayama Game 3\n\nSam Bogue vs. Matt Xu\n\n30:12 Sam Bogue vs. Matt Xu Game 1\n32:26 Sam Bogue vs. Matt Xu Game 2\n35:50 Sam Bogue vs. Matt Xu Game 3\n\nYuchen Liu vs. Yuya Tase\n\n44:54 Yuchen Liu vs. Yuya Tase Game 2\n\nJustin Chin vs. Jakob Palo\n\n55:17 Justin Chin vs. Jakob Palo Game 2\n1:01:30 Justin Chin vs. Jakob Palo Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:27Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 5
+      }
+    },
+    {
+      "id": "73WRiqSQ2AU",
+      "title": "Round 6 | Ken Yukuhiro vs. Koen de Vos | Modern | #PTMSH",
+      "description": "Ken Yukuhiro vs. Koen de Vos\n\n0:53 Ken Yukuhiro vs. Koen de Vos Game 1\n20:21 Ken Yukuhiro vs. Koen de Vos Game 2\n\nRui Zhang vs. Mateo Ferreira\n\n38:24 Rui Zhang vs. Mateo Ferreira Game 2\n48:39 Rui Zhang vs. Mateo Ferreira Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:50Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 6
+      }
+    },
+    {
+      "id": "YZbdQR8WL-g",
+      "title": "Round 7 | Jean-Emmanuel Depraz vs. Jake Bailey | Modern | #PTMSH",
+      "description": "Jean-Emmanuel Depraz vs. Jake Bailey\n\n1:08 Jean-Emmanuel Depraz vs. Jake Bailey Game 1\n18:39 Jean-Emmanuel Depraz vs. Jake Bailey Game 2\n23:06 Jean-Emmanuel Depraz vs. Jake Bailey Game 3\n\nNick Talbot vs. Alexander Rosdahl\n\n33:50 Nick Talbot vs. Alexander Rosdahl Game 2\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:53Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 7
+      }
+    },
+    {
+      "id": "aBTH7Ka06cA",
+      "title": "Round 8 | Lorenzo Gruppi vs. Martin Juza | Modern | #PTMSH",
+      "description": "Lorenzo Gruppi vs. Martin Juza\n\n0:52 Lorenzo Gruppi vs. Martin Juza Game 1\n15:08 Lorenzo Gruppi vs. Martin Juza Game 2\n30:00  Lorenzo Gruppi vs. Martin Juza Game 3\n\nJavier Dominguez vs. Curtis Lam\n\n45:51 Javier Dominguez vs. Curtis Lam Game 2\n\nTimo Bertram vs. Nicholas Odenheimer\n\n51:31 Timo Bertram vs. Nicholas Odenheimer Game 2\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T07:08:56Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 8
+      }
+    },
+    {
+      "id": "Hyf9nKe5Vs8",
+      "title": "Featured Draft Martin Juza | Draft | #PTMSH",
+      "description": "Find full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:35Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "draft",
+        "value": 0
+      }
+    },
+    {
+      "id": "v6K2muTOI3I",
+      "title": "Round 9 | Martin Juza vs. Timo Bertram | Draft | #PTMSH",
+      "description": "Martin Juza vs. Timo Bertram\n\n2:10 Martin Juza vs. Timo Bertram Game 1\n15:49 Martin Juza vs. Timo Bertram Game 2\n32:52 Martin Juza vs. Timo Bertram Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:37Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 9
+      }
+    },
+    {
+      "id": "js7-PnzlMCc",
+      "title": "Round 10 | Timo Bertram vs. Bernardo Torres | Draft | #PTMSH",
+      "description": "Timo Bertram vs. Bernardo Torres\n\n0:52 Timo Bertram vs. Bernardo Torres Game 1\n7:33 Timo Bertram vs. Bernardo Torres Game 2\n\nMartin Juza vs. Arne Huschenbeth\n\n25:43 Martin Juza vs. Arne Huschenbeth Game 2\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:40Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 10
+      }
+    },
+    {
+      "id": "CoZW6est_7c",
+      "title": "Round 11 | Timo Bertram vs. Lorenzo Gruppi | Draft | #PTMSH",
+      "description": "Timo Bertram vs. Lorenzo Gruppi\n\n0:53 Timo Bertram vs. Lorenzo Gruppi Game 1\n13:14 Timo Bertram vs. Lorenzo Gruppi Game 2\n23:16 Timo Bertram vs. Lorenzo Gruppi Game 3\n\nEduardo Sajgalik vs. Rei Hirayama\n\n40:26 Eduardo Sajgalik vs. Rei Hirayama Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:43Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 11
+      }
+    },
+    {
+      "id": "xhFFsjtrgeU",
+      "title": "Round 12 | Yuya Hosokawa vs. Nicholas Odenheimer | Modern | #PTMSH",
+      "description": "Yuya Hosokawa vs. Nicholas Odenheimer\n\n0:58 Yuya Hosokawa vs. Nicholas Odenheimer Game 1\n6:53 Yuya Hosokawa vs. Nicholas Odenheimer Game 2\n9:38 Yuya Hosokawa vs. Nicholas Odenheimer Game 3\n\nNick Talbot vs. Shi Yang\n\n20:27 Nick Talbot vs. Shi Yang Game 1\n25:39 Nick Talbot vs. Shi Yang Game 2\n30:03  Nick Talbot vs. Shi Yang Game 3\n\nJustin Chin vs. Steve Gan\n\n46:29 Justin Chin vs. Steve Gan Game 3\n\nKen Yukuhiro vs. Jake Bailey\n\n55:58 Ken Yukuhiro vs. Jake Bailey Game 2\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:46Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 12
+      }
+    },
+    {
+      "id": "CpsdKtBLNMY",
+      "title": "Round 13 | Maxime Rayvich vs. Yimin Zhi | Modern | #PTMSH",
+      "description": "Maxime Rayvich vs. Yimin Zhi\n\n0:43 Maxime Rayvich vs. Yimin Zhi Game 1\n19:05 Maxime Rayvich  vs. Yimin Zhi Game 2\n34:05 Maxime Rayvich  vs. Yimin Zhi Game 3\n\nRasmus Enegren vs. HungYI Yu\n\n52:01 Rasmus Enegren vs. HungYI Yu Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:49Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 13
+      }
+    },
+    {
+      "id": "OIuBHLoJdR0",
+      "title": "Round 14 | Yuya Hosokawa vs. Eduardo Sajgalik | Modern | #PTMSH",
+      "description": "Yuya Hosokawa vs. Eduardo Sajgalik\n\n0:35 Yuya Hosokawa vs. Eduardo Sajgalik Game 1\n7:00 Yuya Hosokawa vs. Eduardo Sajgalik Game 2\n\nBernardo Torres vs. Justin Chin\n\n24:21 Bernardo Torres vs. Justin Chin Game 1\n27:40 Bernardo Torres vs. Justin Chin Game 2\n\nRasmus Enegren vs. Shi Yang\n\n44:37 Rasmus Enegren vs. Shi Yang Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:51Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 14
+      }
+    },
+    {
+      "id": "MFpVaVXu6-8",
+      "title": "Round 15 | Timo Bertram vs. Alex Rohan | Modern | #PTMSH",
+      "description": "Timo Bertram vs. Alex Rohan\n\n0:54 Timo Bertram vs. Alex Rohan Game 1\n21:40 Timo Bertram vs. Alex Rohan Game 2\n27:25 Timo Bertram vs. Alex Rohan Game 3\n\nMattia Oneto vs. Ken Yukuhiro\n\n44:42 Mattia Oneto vs. Ken Yukuhiro Game 3\n\nYuya Hosokawa vs. Lorenzo Gruppi\n\n52:33 Yuya Hosokawa vs. Lorenzo Gruppi Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:55Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 15
+      }
+    },
+    {
+      "id": "xRqMTyZJRC0",
+      "title": "Round 16 | Rei Hirayama vs. Mattia Oneto | Modern | #PTMSH",
+      "description": "Rei Hirayama vs. Mattia Oneto\n\n0:38 Rei Hirayama vs. Mattia Oneto Game 1\n6:17 Rei Hirayama vs. Mattia Oneto Game 2\n\nJesse Hampton vs. Yuuki Ichikawa\n\n17:08 Jesse Hampton vs. Yuuki Ichikawa Game 2\n\nTimo Bertram vs. Justin Chin\n\n30:40 Timo Bertram vs. Justin Chin Game 3\n\nYuya Hosokawa vs. Nick Talbot\n\n39:27 Yuya Hosokawa vs. Nick Talbot Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-18T19:46:58Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "round",
+        "value": 16
+      }
+    }
+  ],
   "PTSOS_2026": [
     {
       "id": "rkn4L1heN5c",
