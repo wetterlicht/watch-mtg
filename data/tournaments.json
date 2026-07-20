@@ -197,6 +197,72 @@
         "type": "round",
         "value": 16
       }
+    },
+    {
+      "id": "5qa8-l43gro",
+      "title": "Featured Draft Ken Yukuhiro | Draft | #PTMSH",
+      "description": "Find full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-19T16:06:32Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "draft",
+        "value": 0
+      }
+    },
+    {
+      "id": "guAnNBa9RIA",
+      "title": "Quarterfinal | Ken Yukuhiro vs. Timo Bertram | Draft | #PTMSH",
+      "description": "Ken Yukuhiro vs. Timo Bertram\n\n3:13 Ken Yukuhiro vs. Timo Bertram Game 1\n31:45 Ken Yukuhiro vs. Timo Bertram Game 2\n49:54 Ken Yukuhiro vs. Timo Bertram Game 3\n1:06:34 Ken Yukuhiro vs. Timo Bertram Game 4\n1:44:47 Ken Yukuhiro vs. Timo Bertram Game 5\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-19T16:06:34Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "quarterfinal",
+        "value": 1000
+      }
+    },
+    {
+      "id": "TuYl9fFpcBo",
+      "title": "Quarterfinal | Eduardo Sajgalik vs. Bernardo Torres | Draft | #PTMSH",
+      "description": "Eduardo Sajgalik vs. Bernardo Torres \n\n0:52 Eduardo Sajgalik vs. Bernardo Torres Game 5\n\nLorenzo Gruppi vs. Mattia Oneto\n\n20:31 Lorenzo Gruppi vs. Mattia Oneto Game 5\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-19T16:06:37Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "quarterfinal",
+        "value": 1000
+      }
+    },
+    {
+      "id": "iqgfV7PDFHo",
+      "title": "Semifinal | Bernardo Torres vs. Lorenzo Gruppi | Draft | #PTMSH",
+      "description": "Bernardo Torres vs. Lorenzo Gruppi\n\n0:51 Bernardo Torres vs. Lorenzo Gruppi Game 1\n14:13 Bernardo Torres vs. Lorenzo Gruppi Game 2\n32:09 Bernardo Torres vs. Lorenzo Gruppi Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-19T16:06:41Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "semifinal",
+        "value": 2000
+      }
+    },
+    {
+      "id": "8c23-jrPwPU",
+      "title": "Semifinal | Timo Bertram vs. Yuuki Ichikawa | Draft | #PTMSH",
+      "description": "Timo Bertram vs. Yuuki Ichikawa\n\n0:42 Timo Bertram vs. Yuuki Ichikawa Game 4\n13:30 Timo Bertram vs. Yuuki Ichikawa Game 5\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-19T16:06:44Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "semifinal",
+        "value": 2000
+      }
+    },
+    {
+      "id": "r6WJrHKZhX4",
+      "title": "Final | Lorenzo Gruppi vs. Yuuki Ichikawa | Draft | #PTMSH",
+      "description": "Lorenzo Gruppi vs. Yuuki Ichikawa\n\n1:54 Lorenzo Gruppi vs. Yuuki Ichikawa Game 1\n30:45 Lorenzo Gruppi vs. Yuuki Ichikawa Game 2\n54:26 Lorenzo Gruppi vs. Yuuki Ichikawa Game 3\n\nFind full coverage, decklists, and more from #PTMSH here: https://magic.gg/events/pro-tour-magic-the-gathering-marvel-super-heroes\n\n#mtg #MagicTheGathering",
+      "publishedAt": "2026-07-19T16:06:47Z",
+      "eventKey": "PTMSH_2026",
+      "stage": {
+        "type": "final",
+        "value": 3000
+      }
     }
   ],
   "PTSOS_2026": [
